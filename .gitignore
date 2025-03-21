@@ -1,0 +1,31 @@
+# Environment Variables
+.env
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+venv/
+.env/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Logs and Temporary Files
+logs/
+*.log
+*.out
+*.pid
+.DS_Store  # macOS metadata file
+
+# IDE Files (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Database & Storage
+*.sqlite3
+*.db

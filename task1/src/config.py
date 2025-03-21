@@ -1,0 +1,1 @@
+CSV_URL = "https://data.cityofnewyork.us/api/views/uvpi-gqnh/rows.csv?accessType=DOWNLOAD"
