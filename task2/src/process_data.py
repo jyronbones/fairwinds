@@ -15,3 +15,6 @@ def convert_to_dataframe(api_response):
     })
 
     return df
+
+def get_first_five_rows(df):
+    return df.head()

@@ -1,5 +1,5 @@
 from src.fetch_api_data import fetch_api_data
-from src.process_data import convert_to_dataframe
+from src.process_data import convert_to_dataframe, get_first_five_rows
 
 
 def main():
@@ -7,7 +7,7 @@ def main():
 
     df = convert_to_dataframe(api_data)
 
-    print(df.head())
+    print(get_first_five_rows(df))
 
 
 if __name__ == "__main__":
